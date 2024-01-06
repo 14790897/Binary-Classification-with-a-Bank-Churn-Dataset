@@ -1,0 +1,185 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="Age<43" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="NumOfProducts_2" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="Age<39" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="NumOfProducts_1" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="leaf=0.0995208398" fillcolor="#e48038" shape="box" style="filled" ]
+
+    16 [ label="Balance<62212.8789" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    16 -> 31 [label="yes" color="#FF0000"]
+    16 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="leaf=0.0101481955" fillcolor="#e48038" shape="box" style="filled" ]
+
+    32 [ label="leaf=-0.0379305817" fillcolor="#e48038" shape="box" style="filled" ]
+
+    8 [ label="Balance<53773.8516" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    17 -> 33 [label="yes" color="#FF0000"]
+    17 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=0.0459725074" fillcolor="#e48038" shape="box" style="filled" ]
+
+    34 [ label="leaf=0.0808883384" fillcolor="#e48038" shape="box" style="filled" ]
+
+    18 [ label="Geography_France" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    18 -> 35 [label="yes" color="#FF0000"]
+    18 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="leaf=0.046030011" fillcolor="#e48038" shape="box" style="filled" ]
+
+    36 [ label="leaf=-0.0275981426" fillcolor="#e48038" shape="box" style="filled" ]
+
+    4 [ label="Balance<53773.8516" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="Age<40" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    19 -> 37 [label="yes" color="#FF0000"]
+    19 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=-0.121626675" fillcolor="#e48038" shape="box" style="filled" ]
+
+    38 [ label="leaf=-0.108065836" fillcolor="#e48038" shape="box" style="filled" ]
+
+    20 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    20 -> 39 [label="yes" color="#FF0000"]
+    20 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="leaf=-0.105753899" fillcolor="#e48038" shape="box" style="filled" ]
+
+    40 [ label="leaf=-0.0669951737" fillcolor="#e48038" shape="box" style="filled" ]
+
+    10 [ label="Age<38" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="EstimatedSalary<63795.8008" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    21 -> 41 [label="yes" color="#FF0000"]
+    21 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="leaf=-0.0484882593" fillcolor="#e48038" shape="box" style="filled" ]
+
+    42 [ label="leaf=-0.0792351142" fillcolor="#e48038" shape="box" style="filled" ]
+
+    22 [ label="Balance<136082" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    22 -> 43 [label="yes" color="#FF0000"]
+    22 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=-0.0212964453" fillcolor="#e48038" shape="box" style="filled" ]
+
+    44 [ label="leaf=-0.0595587865" fillcolor="#e48038" shape="box" style="filled" ]
+
+    2 [ label="NumOfProducts_2" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Balance<59568.5703" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="Age<72" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="Age<66" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    23 -> 45 [label="yes" color="#FF0000"]
+    23 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="leaf=0.110911943" fillcolor="#e48038" shape="box" style="filled" ]
+
+    46 [ label="leaf=0.0676298663" fillcolor="#e48038" shape="box" style="filled" ]
+
+    24 [ label="EstimatedSalary<72846.5781" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    24 -> 47 [label="yes" color="#FF0000"]
+    24 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="leaf=0.0239106175" fillcolor="#e48038" shape="box" style="filled" ]
+
+    48 [ label="leaf=-0.0487714708" fillcolor="#e48038" shape="box" style="filled" ]
+
+    12 [ label="Geography_France" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="Geography_Spain" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    25 -> 49 [label="yes" color="#FF0000"]
+    25 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="leaf=0.104311705" fillcolor="#e48038" shape="box" style="filled" ]
+
+    50 [ label="leaf=0.0435692593" fillcolor="#e48038" shape="box" style="filled" ]
+
+    26 [ label="Age<45" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    26 -> 51 [label="yes" color="#FF0000"]
+    26 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="leaf=0.020304611" fillcolor="#e48038" shape="box" style="filled" ]
+
+    52 [ label="leaf=0.0622282736" fillcolor="#e48038" shape="box" style="filled" ]
+
+    6 [ label="Balance<53773.8516" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="Age<47" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    27 -> 53 [label="yes" color="#FF0000"]
+    27 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="leaf=-0.0590517931" fillcolor="#e48038" shape="box" style="filled" ]
+
+    54 [ label="leaf=-0.0204402041" fillcolor="#e48038" shape="box" style="filled" ]
+
+    28 [ label="Age<64" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    28 -> 55 [label="yes" color="#FF0000"]
+    28 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="leaf=0.0106073488" fillcolor="#e48038" shape="box" style="filled" ]
+
+    56 [ label="leaf=-0.0773706958" fillcolor="#e48038" shape="box" style="filled" ]
+
+    14 [ label="Age<46" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    29 -> 57 [label="yes" color="#FF0000"]
+    29 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="leaf=-0.0144857066" fillcolor="#e48038" shape="box" style="filled" ]
+
+    58 [ label="leaf=0.0208402909" fillcolor="#e48038" shape="box" style="filled" ]
+
+    30 [ label="Age<69" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    30 -> 59 [label="yes" color="#FF0000"]
+    30 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="leaf=0.0556411259" fillcolor="#e48038" shape="box" style="filled" ]
+
+    60 [ label="leaf=-0.0486785993" fillcolor="#e48038" shape="box" style="filled" ]
+}

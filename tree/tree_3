@@ -1,0 +1,155 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="IsActiveMember_0.0" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="Geography_Germany" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="NumOfProducts_3" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="HasCrCard_0.0" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    15 -> 31 [label="yes" color="#FF0000"]
+    15 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="leaf=-0.105004862" fillcolor="#e48038" shape="box" style="filled" ]
+
+    32 [ label="leaf=-0.0782783851" fillcolor="#e48038" shape="box" style="filled" ]
+
+    16 [ label="HasCrCard_0.0" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    16 -> 33 [label="yes" color="#FF0000"]
+    16 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=-0.0581343472" fillcolor="#e48038" shape="box" style="filled" ]
+
+    34 [ label="leaf=-0.0328038894" fillcolor="#e48038" shape="box" style="filled" ]
+
+    8 [ label="CreditScore<461" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="leaf=-0.00151898467" fillcolor="#e48038" shape="box" style="filled" ]
+
+    18 [ label="leaf=0.129021853" fillcolor="#e48038" shape="box" style="filled" ]
+
+    4 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="NumOfProducts_3" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="HasCrCard_0.0" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    19 -> 35 [label="yes" color="#FF0000"]
+    19 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="leaf=-0.0253848769" fillcolor="#e48038" shape="box" style="filled" ]
+
+    36 [ label="leaf=0.0056692129" fillcolor="#e48038" shape="box" style="filled" ]
+
+    20 [ label="leaf=0.123492911" fillcolor="#e48038" shape="box" style="filled" ]
+
+    10 [ label="NumOfProducts_3" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="Tenure<2" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    21 -> 37 [label="yes" color="#FF0000"]
+    21 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=0.0537760518" fillcolor="#e48038" shape="box" style="filled" ]
+
+    38 [ label="leaf=0.0354106277" fillcolor="#e48038" shape="box" style="filled" ]
+
+    22 [ label="leaf=0.132876366" fillcolor="#e48038" shape="box" style="filled" ]
+
+    2 [ label="Geography_Germany" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="NumOfProducts_3" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="CreditScore<591" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    23 -> 39 [label="yes" color="#FF0000"]
+    23 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="leaf=-0.000647960289" fillcolor="#e48038" shape="box" style="filled" ]
+
+    40 [ label="leaf=-0.030548919" fillcolor="#e48038" shape="box" style="filled" ]
+
+    24 [ label="CreditScore<487" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    24 -> 41 [label="yes" color="#FF0000"]
+    24 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="leaf=-0.00248676725" fillcolor="#e48038" shape="box" style="filled" ]
+
+    42 [ label="leaf=0.133132517" fillcolor="#e48038" shape="box" style="filled" ]
+
+    12 [ label="NumOfProducts_3" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="CreditScore<661" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    25 -> 43 [label="yes" color="#FF0000"]
+    25 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=0.0431266874" fillcolor="#e48038" shape="box" style="filled" ]
+
+    44 [ label="leaf=0.0268832184" fillcolor="#e48038" shape="box" style="filled" ]
+
+    26 [ label="CreditScore<443" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    26 -> 45 [label="yes" color="#FF0000"]
+    26 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="leaf=0.00331220147" fillcolor="#e48038" shape="box" style="filled" ]
+
+    46 [ label="leaf=0.140828848" fillcolor="#e48038" shape="box" style="filled" ]
+
+    6 [ label="Gender_Female" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="NumOfProducts_3" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="Tenure<7" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    27 -> 47 [label="yes" color="#FF0000"]
+    27 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="leaf=0.0719797686" fillcolor="#e48038" shape="box" style="filled" ]
+
+    48 [ label="leaf=0.0580035448" fillcolor="#e48038" shape="box" style="filled" ]
+
+    28 [ label="leaf=0.138715535" fillcolor="#e48038" shape="box" style="filled" ]
+
+    14 [ label="NumOfProducts_3" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="CreditScore<838" fillcolor="#78cbe" shape="box" style="filled, rounded" ]
+    29 -> 49 [label="yes" color="#FF0000"]
+    29 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="leaf=0.103436232" fillcolor="#e48038" shape="box" style="filled" ]
+
+    50 [ label="leaf=0.0615416244" fillcolor="#e48038" shape="box" style="filled" ]
+
+    30 [ label="leaf=0.139896229" fillcolor="#e48038" shape="box" style="filled" ]
+}
